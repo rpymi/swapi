@@ -1,0 +1,54 @@
+/*This block is used to set the background image*/
+body{
+    background-image: url("starwar.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 97vh;
+}
+
+/*This block is used to set the detail of text area*/
+.text{
+    /*set that text box be in the center with background and its width*/
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+
+    /*set the vertical position of text box*/
+    position: relative;
+    top: 35%;
+
+    /*set border*/
+    border-style: solid;
+    border-color: darkred;
+    border-radius: 30px;
+
+    /*set padding*/
+    padding: 5px 25px 25px;
+
+    /*set font and relative futures*/
+    font-family: sans-serif, Garamond;
+    text-align: left;
+    color: silver;
+
+    /*set display as grid */
+    display: grid;
+    grid-template-columns: auto auto;
+
+
+
+}
+/*specifies of headers color*/
+h2{
+    color: goldenrod;
+}
+
+/*the style of buttons*/
+button{
+    background: none;
+    border: none;
+    color: silver;
+    font-family: sans-serif, Garamond;
+    font-size: larger;
+}
